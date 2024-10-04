@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "cython",
+    "setuptools",
+]
+
+[project]
+name = "healpix"
+license = {file = "LICENSE"}
+readme = "README.md"
+description = ""
+authors = [
+    {name = "Sidney Mau", email = "sidneymau@gmail.com" }
+]
+dynamic = ["version"]
