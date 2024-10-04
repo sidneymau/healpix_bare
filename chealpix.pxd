@@ -13,6 +13,9 @@ cdef extern from "healpix_bare/healpix_bare.h":
     int nest2ring(int nside, int ipnest)
     int ring2nest(int nside, int ipring)
 
+    int ang2nest(int nside, t_ang ang)
+    int ang2ring(int nside, t_ang ang)
+
     t_ang nest2ang(int nside, int ipix)
     t_ang ring2ang(int nside, int ipix)
 

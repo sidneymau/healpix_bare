@@ -36,7 +36,21 @@ cdef int _ring2nest(int nside, int ipring):
     return chealpix.ring2nest(nside, ipring)
 
 def ring2nest(nside, ipring):
-    return ring2nest(nside, ipring)
+    return _ring2nest(nside, ipring)
+
+
+cdef int _ang2nest(int nside, chealpix.t_ang ang):
+    return chealpix.ang2nest(nside, ang)
+
+def ang2nest(nside, ang):
+    return _ang2nest(nside, ang)
+
+
+cdef int _ang2ring(int nside, chealpix.t_ang ang):
+    return chealpix.ang2ring(nside, ang)
+
+def ang2ring(nside, ang):
+    return _ang2ring(nside, ang)
 
 
 cdef chealpix.t_ang _nest2ang(int nside, int ipix):
