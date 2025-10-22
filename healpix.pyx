@@ -24,7 +24,7 @@ def ang(theta, phi):
     """
     return chealpix.t_ang(theta, phi)
 
-`
+
 def vec(x, y, z):
     """
     A structure describing a 3-vector with coordinates \a x, \a y and \a z.
