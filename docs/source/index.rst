@@ -6,9 +6,8 @@
 healpix_bare documentation
 ==========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Python bindings for `healpix_bare <https://sourceforge.net/projects/healpix/files/healpix_bare_1.0/>`_ under BSD license.
+See `K.M. Gorski et al., 2005, Ap.J., 622, p.759 <http://adsabs.harvard.edu/abs/2005ApJ...622..759G>`_ for the original HEALPix paper.
 
 
 .. toctree::

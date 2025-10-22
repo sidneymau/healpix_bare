@@ -1,4 +1,4 @@
-# HEALPix
+# HEALPix Bare
 
 `healpix_bare` from https://sourceforge.net/projects/healpix/files/healpix_bare_1.0/ under BSD license
 

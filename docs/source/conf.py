@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'healpix_bare'
+project = 'HEALPix Bare'
 copyright = '2025, Sidney Mau'
 author = 'Sidney Mau'
 
